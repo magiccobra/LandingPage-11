@@ -1,0 +1,44 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("cubes.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+h1 {
+	font-family: Permanent Marker;
+	text-align: center;
+	color: white;
+	border-bottom: solid white 1px;
+	padding-bottom: 1px;
+}
+
+h5 {
+	font-family: Permanent Marker;
+	text-align: center;
+	color: white;
+}
+
+.clear {
+	position: relative;
+	top: 2em;
+	border-radius: 20px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+	border-radius: 2em;
+	font-size: 16px;
+}
+
+footer {
+	text-align: center;
+	position: absolute;
+   	bottom: 0;
+   	width: 100%
+}
